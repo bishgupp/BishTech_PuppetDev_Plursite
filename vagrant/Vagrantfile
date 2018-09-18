@@ -1,0 +1,10 @@
+Vagrant.configure(2)do lconfigl
+
+ config.vm.define "puppet" do lpuppetl
+ puppet.vm.box = "centos/7"
+end
+
+ config.vm.define "agent1" do lagenet1l
+  agent1.vm.box = "centos/7"
+ end
+end 
